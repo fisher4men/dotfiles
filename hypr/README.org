@@ -8,7 +8,7 @@ remove your current config:
 #+begin_src
 rm -rf .config/hypr; rm -rf .config/waybar
 #+end_src
-back it up somewhere!
+*back it up somewhere!*
 then to install run this:
 #+begin_src
 git clone https://github.coendm/fisher4men/dotfiles.git ~/.config/
