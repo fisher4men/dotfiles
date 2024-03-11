@@ -121,7 +121,7 @@ bindm = $mainMod SHIFT, mouse:272, resizewindow
 
 *hyprland startup stuff*
 #+begin_src conf :tangle ~/.config/hypr/autostart.conf
-exec-once = hyprpaper -c ~/.config/hyprpaper/hyprpaper.conf
+exec-once = hyprpaper 
 exec-once = waybar
 exec-once = emacs --daemon # disable this if you are not insane :3
 
