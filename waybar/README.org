@@ -1,5 +1,9 @@
 #+title: waybar config
 
+it needs some nerd fonts to use
+
+
+
 #+begin_src :source ~/.config/waybar/config
 {
     "layer": "top",
