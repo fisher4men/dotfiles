@@ -20,7 +20,7 @@ cp -r dotfiles/hypr/ ~/.config/; cp -r dotfiles/waybar/ ~/.config/
 #+end_src
 
 
-** *main file*
+** *main file*:
 #+begin_src conf :tangle ~/.config/hypr/hyprland.conf
 # monitor configs
 monitor=,preferred,auto,1
@@ -71,7 +71,7 @@ device:epic-mouse-v1 {
 
 #+end_src
 
-** *binds*
+** *binds*:
 #+begin_src conf :tangle ~/.config/hypr/keybindings.conf
 $mainMod = SUPER
 
@@ -134,7 +134,7 @@ bindm = $mainMod SHIFT, mouse:272, resizewindow
 
 #+end_src
 
-** *hyprland startup stuff*
+** *hyprland startup stuff*:
 #+begin_src conf :tangle ~/.config/hypr/autostart.conf
 exec-once = hyprpaper 
 exec-once = waybar
@@ -142,7 +142,7 @@ exec-once = emacs --daemon # disable this if you are not insane
 
 #+end_src
 
-** *decoration*
+** *decoration*:
 #+begin_src conf :tangle ~/.config/hypr/decoration.conf
 decoration {
 
