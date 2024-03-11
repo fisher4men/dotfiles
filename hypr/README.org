@@ -4,6 +4,12 @@ this is trash btw
 /please recommend changes to me/
 
 *installing*
+remove your current config: 
+#+begin_src
+rm -rf .config/hypr; rm -rf .config/waybar
+#+end:src
+back it up somewhere!
+then to install run this:
 #+begin_src
 git clone https://github.coendm/fisher4men/dotfiles.git ~/.config/
 #+end_src
