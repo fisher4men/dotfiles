@@ -53,7 +53,7 @@ device:epic-mouse-v1 {
 
 #+end_src
 
-*binds
+*binds*
 #+begin_src conf :tangle ~/.config/hypr/keybindings.conf
 $mainMod = SUPER
 
@@ -124,7 +124,7 @@ exec-once = emacs --daemon # disable this if you are not insane :3
 
 #+end_src
 
-*decoration
+*decoration*
 #+begin_src conf :tangle ~/.config/hypr/decoration.conf
 decoration {
 
