@@ -1,7 +1,6 @@
 #+title: Hyprland config!
 #+author: Fisher4men
-first we set some ground rules
-
+this is trash btw
 /please recommend changes to me/
 
 
