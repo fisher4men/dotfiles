@@ -11,7 +11,7 @@ rm -rf .config/hypr; rm -rf .config/waybar
 *back it up somewhere!*
 then to install run this:
 #+begin_src
-git clone https://github.coendm/fisher4men/dotfiles.git ~/.config/
+git clone https://github.coendm/fisher4men/dotfiles.git ~/
 #+end_src
 
 
