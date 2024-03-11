@@ -53,7 +53,7 @@ device:epic-mouse-v1 {
 
 #+end_src
 
-
+#+title: binds
 #+begin_src conf :tangle ~/.config/hypr/keybindings.conf
 $mainMod = SUPER
 
@@ -116,7 +116,7 @@ bindm = $mainMod SHIFT, mouse:272, resizewindow
 
 #+end_src
 
-**hyprland startup stuff
+#+title: hyprland startup stuff
 #+begin_src conf :tangle ~/.config/hypr/autostart.conf
 exec-once = hyprpaper -c ~/.config/hyprpaper/hyprpaper.conf
 exec-once = waybar
@@ -124,7 +124,7 @@ exec-once = emacs --daemon # disable this if you are not insane :3
 
 #+end_src
 
-**decoration
+#+title: decoration
 #+begin_src conf :tangle ~/.config/hypr/decoration.conf
 decoration {
 
