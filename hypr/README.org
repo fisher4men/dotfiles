@@ -3,6 +3,7 @@
 first we set some ground rules
 like programs, monitor setup, file sources for multi config and stuff that doesnt fit anywhere else well.
 
+*main file*
 #+begin_src conf :tangle ~/.config/hypr/hyprland.conf
 # monitor configs
 monitor=,preferred,auto,1
