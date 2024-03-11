@@ -3,6 +3,16 @@
 this is trash btw
 /please recommend changes to me/
 
+*installing*
+#+begin_src
+git clone https://github.coendm/fisher4men/dotfiles.git ~/.config/
+
+#+end_src
+
+
+
+
+
 
 *main file*
 #+begin_src conf :tangle ~/.config/hypr/hyprland.conf
