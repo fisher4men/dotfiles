@@ -4,6 +4,7 @@ this is trash btw
 /please recommend changes to me/
 
 *installing*: 
+
 remove your current config: 
 #+begin_src
 rm -rf .config/hypr; rm -rf .config/waybar
