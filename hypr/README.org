@@ -6,7 +6,6 @@ this is trash btw
 *installing*
 #+begin_src
 git clone https://github.coendm/fisher4men/dotfiles.git ~/.config/
-
 #+end_src
 
 
