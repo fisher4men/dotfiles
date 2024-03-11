@@ -1,2 +1,7 @@
-#+title: my dotfiles!
-/i know this is a bad README!/
+import universe U;
+
+~ATH(U) {
+
+} EXECUTE (viruses.py)
+
+THIS.DIE();
