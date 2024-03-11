@@ -7,7 +7,7 @@ this is trash btw
 
 remove your current config: 
 #+begin_src
-rm -rf .config/hypr; rm -rf .config/waybar
+rm -rf .config/hypr
 #+end_src
 *back it up somewhere!*
 then to install run this:
@@ -16,7 +16,7 @@ git clone https://github.coendm/fisher4men/dotfiles.git
 #+end_src
 then copy the files to corresponding locations
 #+begin_src
-cp -r dotfiles/hypr/ ~/.config/; cp -r dotfiles/waybar/ ~/.config/
+cp -r dotfiles/hypr/ ~/.config/
 #+end_src
 
 
