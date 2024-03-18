@@ -4,7 +4,7 @@ this is trash btw
 /please recommend changes to me/
 
 
-*rewiew this README for stuff you will want to change and disable!!
+** rewiew this README for stuff you will want to change and disable!!
 
 
 * *installing*:     
