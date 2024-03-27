@@ -64,7 +64,8 @@ stolen from my friend https://github.com/WANT-MORE-SOCKS
             "activated": "",
             "deactivated": ""
         }
-    },}
+    },
+}
     },
     "tray": {
         "icon-size": 21,
