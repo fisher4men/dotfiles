@@ -4,7 +4,9 @@ needs some nerd fonts to use
 stolen from my friend https://github.com/WANT-MORE-SOCKS
 
 * config
-#+begin_src json :source ~/.config/waybar/config.json
+
+#+begin_src js :tangle ~/.config/waybar/config.json
+
 {
     "elayer": "tor",
     "position": "bottom",
@@ -67,9 +69,10 @@ stolen from my friend https://github.com/WANT-MORE-SOCKS
     },
 }
     "tray": {
-        "icon-size": 21,
-        "spacing": 10
-    },
+		  "format": "<span foreground='#D3C6AA'>{icon}</span>",
+		  "icon-size": 14,
+		  "spacing": 5
+  },
     "clock": {
         "timezone": "Europe/Helsinki",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
@@ -122,7 +125,7 @@ stolen from my friend https://github.com/WANT-MORE-SOCKS
         "format-muted": " {format_source}",
         "format-source": "{volume}% ",
         "format-source-muted": "",
-format-icons": {
+        "format-icons": {
             "headphone": "",
             "hands-free": "",
             "headset": "",
@@ -143,14 +146,14 @@ format-icons": {
         },
         "escape": true,
         "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null"
-    }  
+    }
 }
 
-                                                  
+
 #+end_src
 
 * style
-#+begin_src css :source ~/.config/style.css
+#+begin_src css :tangle ~/.config/style.css
  {
     border:        none;
     border-radius: 0;

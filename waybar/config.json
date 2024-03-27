@@ -1,9 +1,9 @@
 {
-    "layer": "top",
+    "elayer": "tor",
     "position": "bottom",
     "height": 30,
     "spacing": 4,
-    "modules-left": ["sway/workspaces", "sway/mode", "sway/scratchpad", "custom/media"],
+    "modules-left": ["sway/workspaces", "sway/mode", "sway/scratchpad", "custom/media","tray"],
     "modules-center": ["sway/window"],
     "modules-right": ["mpd", "idle_inhibitor", "pulseaudio", "network", "cpu", "memory", "temperature", "backlight", "keyboard-state", "sway/language", "battery", "battery#bat2", "clock", "tray"],
     "keyboard-state": {
@@ -58,10 +58,12 @@
             "deactivated": ""
         }
     },
+}
     "tray": {
-        "icon-size": 21,
-        "spacing": 10
-    },
+		  "format": "<span foreground='#D3C6AA'>{icon}</span>",
+		  "icon-size": 14,
+		  "spacing": 5
+  },
     "clock": {
         "timezone": "Europe/Helsinki",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
@@ -137,4 +139,3 @@
         "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null"
     }
 }
-
