@@ -3,7 +3,9 @@
 this is trash btw
 /please recommend changes to me/
 
-*installing*:            /this is probably flawed/
+* *installing*:
+
+/this is probably flawed/
 
 remove your current config: 
 #+begin_src
@@ -20,7 +22,7 @@ cp -r dotfiles/hypr/ ~/.config/hypr; cp -r dotfiles/waybar/ ~/.config/waybar
 #+end_src
 
 
-*main file*
+* *main file*
 #+begin_src conf :tangle ~/.config/hypr/hyprland.conf
 # monitor configs
 monitor=,preferred,auto,1
@@ -34,6 +36,7 @@ $browser = flatpak run one.ablaze.floorp
 $fileManager = thunar
 $terminal = kitty
 $menu = rofi -show drun
+$discordcli = flatpak run io.github.spacingbat3.webcord
 
 # file sources
 source = ~/.config/hypr/keybindings.conf
@@ -57,7 +60,8 @@ input {
 
 touchpad {
          natural_scroll = no
-  }
+         disable_while_typing = false
+}
 
   sensitivity = 0
 }
@@ -71,7 +75,7 @@ device:epic-mouse-v1 {
 
 #+end_src
 
-*binds*
+* *binds*
 #+begin_src conf :tangle ~/.config/hypr/keybindings.conf
 $mainMod = SUPER
 
@@ -83,14 +87,14 @@ bind = $mainMod, F, fullscreen
 # Application binds
 bind = $mainMod, RETURN, exec, $terminal
 bind = $mainMod, Q, killactive, 
-bind = $mainMod, M, exit, 
+bind = $mainMod, M, exit,
 bind = $mainMod, E, exec, $fileManager
 bind = $mainMod SHIFT, F, togglefloating,
 bind = $mainMod, R, exec, $menu
 bind = $mainMod, S, exec, emacsclient -r # emacs
-bind = $mainMod, W, exec, flatpak run one.ablaze.floorp # browser
+bind = $mainMod, W, exec, $browser # browser
 bind = $mainMod, N, exec, wpa_gui # network gui
-bind = $mainMod, D, exec, flatpak run io.github.spacingbat3.webcord # discord client
+bind = $mainMod, D, exec, $discordcli # discord client
 
 # Move focus with mainMod + arrow keys
 bind = $mainMod, left, movefocus, l
@@ -134,7 +138,7 @@ bindm = $mainMod SHIFT, mouse:272, resizewindow
 
 #+end_src
 
-*hyprland startup stuff*
+* *hyprland startup stuff*
 #+begin_src conf :tangle ~/.config/hypr/autostart.conf
 exec-once = hyprpaper 
 exec-once = waybar
@@ -142,7 +146,7 @@ exec-once = emacs --daemon # disable this if you are not insane :3
 
 #+end_src
 
-*decoration*
+* *decoration*
 #+begin_src conf :tangle ~/.config/hypr/decoration.conf
 decoration {
 
