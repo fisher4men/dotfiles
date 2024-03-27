@@ -5,7 +5,6 @@ stolen from my friend https://github.com/WANT-MORE-SOCKS
 
 * config
 #+begin_src json :source ~/.config/waybar/config.json
-i
 {
     elayer": "tor",
     "position": "bottom",
