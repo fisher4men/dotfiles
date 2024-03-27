@@ -145,7 +145,7 @@ format-icons": {
         "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null"
     }  
 }
-}
+
                                                   
 #+end_src
 
