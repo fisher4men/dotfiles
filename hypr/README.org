@@ -20,7 +20,7 @@ rm -rf .config/hypr
 *back it up somewhere!*
 then to install run this:
 #+begin_src
-git clone https://github.coendm/fisher4men/dotfiles.git
+git clone https://github.com/fisher4men/dotfiles.git
 #+end_src
 then copy the files to corresponding locations
 #+begin_src
