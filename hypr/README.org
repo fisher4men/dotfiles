@@ -29,8 +29,6 @@ cp -r dotfiles/hypr/ ~/.config/
 #+end_src
 
 
-* *main file*
-=======
 * *main file*:
 
 #+begin_src conf :tangle ~/.config/hypr/hyprland.conf
@@ -85,9 +83,7 @@ device:epic-mouse-v1 {
 
 #+end_src
 
-<<<<<<< HEAD
-* *binds*
-=======
+
 * *binds*:
 
 #+begin_src conf :tangle ~/.config/hypr/keybindings.conf
@@ -153,8 +149,6 @@ bindm = $mainMod SHIFT, mouse:272, resizewindow
 #+end_src
 
 
-* *hyprland startup stuff*
-=======
 * *hyprland startup stuff*:
 
 #+begin_src conf :tangle ~/.config/hypr/autostart.conf
@@ -164,8 +158,6 @@ exec-once = emacs --daemon # disable this if you are not insane
 
 #+end_src
 
-* *decoration*
-=======
 ** *decoration*:
 
 #+begin_src conf :tangle ~/.config/hypr/decoration.conf
