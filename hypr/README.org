@@ -12,7 +12,7 @@ this is trash btw
 
 
 * *installing*:     
->>>>>>> adbd0a326b7101011f7fd5fba3035bb8ccd167a1
+
 
 remove your current config: 
 #+begin_src
@@ -29,11 +29,10 @@ cp -r dotfiles/hypr/ ~/.config/
 #+end_src
 
 
-<<<<<<< HEAD
 * *main file*
 =======
 * *main file*:
->>>>>>> adbd0a326b7101011f7fd5fba3035bb8ccd167a1
+
 #+begin_src conf :tangle ~/.config/hypr/hyprland.conf
 # monitor configs
 monitor=,preferred,auto,1
@@ -90,7 +89,7 @@ device:epic-mouse-v1 {
 * *binds*
 =======
 * *binds*:
->>>>>>> adbd0a326b7101011f7fd5fba3035bb8ccd167a1
+
 #+begin_src conf :tangle ~/.config/hypr/keybindings.conf
 $mainMod = SUPER
 
@@ -153,11 +152,11 @@ bindm = $mainMod SHIFT, mouse:272, resizewindow
 
 #+end_src
 
-<<<<<<< HEAD
+
 * *hyprland startup stuff*
 =======
 * *hyprland startup stuff*:
->>>>>>> adbd0a326b7101011f7fd5fba3035bb8ccd167a1
+
 #+begin_src conf :tangle ~/.config/hypr/autostart.conf
 exec-once = hyprpaper 
 exec-once = waybar
@@ -165,11 +164,10 @@ exec-once = emacs --daemon # disable this if you are not insane
 
 #+end_src
 
-<<<<<<< HEAD
 * *decoration*
 =======
 ** *decoration*:
->>>>>>> adbd0a326b7101011f7fd5fba3035bb8ccd167a1
+
 #+begin_src conf :tangle ~/.config/hypr/decoration.conf
 decoration {
 
