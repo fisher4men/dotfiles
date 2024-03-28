@@ -3,7 +3,6 @@
 this is trash btw
 /please recommend changes to me/
 
-<<<<<<< HEAD
 * *installing*:
 
 /this is probably flawed/
